@@ -1,0 +1,84 @@
+.login{
+	  background: url(imac.png) 0 0 no-repeat;
+  background-size: 895px 778px;
+  color: white;
+  margin-bottom: 77px;
+  padding: 38px 35px 267px;
+  position: relative;
+}
+.login-screen {
+  background-color: #1abc9c;
+  min-height: 360px;
+  padding: 80px 199px 33px 306px;
+}
+
+.login-icon {
+  left: 200px;
+  position: absolute;
+  top: 160px;
+  width: 96px;
+}
+
+
+.login-icon > img {
+  display: block;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.login-icon > h4 {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 34px;
+  opacity: .95;
+}
+
+.login-icon > h4 small {
+  color: inherit;
+  display: block;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+.login-form {
+  background-color: #edeff1;
+  padding: 24px 23px 20px;
+  position: relative;
+  border-radius: 6px;
+
+}
+
+
+.login-field {
+
+  border-color: transparent;
+  height: 30px;
+  width: 275px;
+  border-radius: 6px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  position: relative;
+  
+}
+
+.login-field:focus {
+  border-color: #1abc9c;
+  transition: 1s;
+}
+
+.login-link {
+  color: #bfc9ca;
+  display: block;
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.container {   
+    top: 0;
+    padding-top: 0;
+    margin: auto;
+    position:relative;
+    width: 900px;
+    height: 100%;
+}
